@@ -9,7 +9,8 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ChatApp'),
+        centerTitle: true,
+        title: const Text('Messenger'),
       ),
       backgroundColor: Color(0xfffF2F2F2),
       body: SafeArea(
@@ -23,7 +24,7 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 
-                const Logo(imagenRuta: 'assets/chat-app-icon-7.jpg', saltoLinea: 20.0, textoTitulo: 'Messenger', tamanoFuente: 30.0),
+                const Logo(imagenRuta: 'assets/chat-app-icon-7.jpg', saltoLinea: 20.0, textoTitulo: 'Login', tamanoFuente: 30.0),
                 
                 _Form(),
 

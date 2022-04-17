@@ -9,7 +9,8 @@ class RegisterPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ChatApp'),
+        centerTitle: true,
+        title: const Text('Messenger'),
       ),
       backgroundColor: Color(0xfffF2F2F2),
       body: SafeArea(
